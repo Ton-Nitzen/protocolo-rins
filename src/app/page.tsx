@@ -204,7 +204,7 @@ export default function ProtocoloRinsPage() {
         </div>
       </section>
 
-      {/* Depoimentos */}
+      {/* Depoimentos - SUBSTITUÍDOS POR IMAGENS */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-12">
@@ -212,28 +212,20 @@ export default function ProtocoloRinsPage() {
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 p-8 rounded-xl shadow-lg">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4 italic">
-                "Tinha uma pedra de 7mm desde 2012. Depois de 20 dias com o protocolo, ela saiu — e eu nem percebi."
-              </p>
-              <p className="font-semibold text-gray-900">— Marcos R., 47 anos</p>
+            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
+              <img 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/34860232-bab1-4e54-8536-ba22a12a547c.jpg" 
+                alt="Depoimento de usuário satisfeito" 
+                className="w-full h-auto object-cover"
+              />
             </div>
             
-            <div className="bg-gray-50 p-8 rounded-xl shadow-lg">
-              <div className="flex mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-500 fill-current" />
-                ))}
-              </div>
-              <p className="text-gray-700 mb-4 italic">
-                "Não queria acreditar que algo natural funcionaria. Mas o especialista me provou com lógica e resultado."
-              </p>
-              <p className="font-semibold text-gray-900">— Lúcia F., 39 anos</p>
+            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
+              <img 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/7b3a9c57-ec64-4728-acf5-f7498c35ca9e.jpg" 
+                alt="Depoimento de usuário satisfeito" 
+                className="w-full h-auto object-cover"
+              />
             </div>
           </div>
         </div>
@@ -270,17 +262,17 @@ export default function ProtocoloRinsPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/af04b6ad-0290-4db3-8ee0-7b3cdc8de95d.png" 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/91577096-1998-47f5-998e-3d89efbe2fa7.png" 
                 alt="Notícia sobre filas no SUS" 
-                className="w-full h-64 object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
             
             <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/b0b2430d-c899-412a-983a-d19fdb188eef.png" 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/64b1a7a1-63c8-434d-9ba7-8fa3d65ec59b.png" 
                 alt="Notícia sobre problemas no sistema de saúde" 
-                className="w-full h-64 object-cover"
+                className="w-full h-auto object-cover"
               />
             </div>
           </div>
