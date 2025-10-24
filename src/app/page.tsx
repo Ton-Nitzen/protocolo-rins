@@ -204,33 +204,6 @@ export default function ProtocoloRinsPage() {
         </div>
       </section>
 
-      {/* Depoimentos - SUBSTITUÍDOS POR IMAGENS */}
-      <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl font-bold text-gray-900">O que nossos usuários dizem</h3>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
-              <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/34860232-bab1-4e54-8536-ba22a12a547c.jpg" 
-                alt="Depoimento de usuário satisfeito" 
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            
-            <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
-              <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/7b3a9c57-ec64-4728-acf5-f7498c35ca9e.jpg" 
-                alt="Depoimento de usuário satisfeito" 
-                className="w-full h-auto object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Por que funciona */}
       <section className="py-16 bg-blue-50">
         <div className="max-w-4xl mx-auto px-4 text-center">
@@ -262,7 +235,7 @@ export default function ProtocoloRinsPage() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg">
               <img 
-                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/91577096-1998-47f5-998e-3d89efbe2fa7.png" 
+                src="https://k6hrqrxuu8obbfwn.public.blob.vercel-storage.com/temp/30c5f945-a639-4ac1-9679-deb77131e2ad.png" 
                 alt="Notícia sobre filas no SUS" 
                 className="w-full h-auto object-cover"
               />
